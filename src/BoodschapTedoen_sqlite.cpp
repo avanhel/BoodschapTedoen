@@ -5,10 +5,11 @@
  *      Author: AHE
  */
 
-#include "../include/BoodschapTedoen_sqlite.h"
+#include "./include/BoodschapTedoen_sqlite.h"
 
-BoodschapTedoen_sqlite::BoodschapTedoen_sqlite() {
-	// TODO Auto-generated constructor stub
+BoodschapTedoen_sqlite::BoodschapTedoen_sqlite(const char p_DatabaseName){
+	// Open the database
+
 
 }
 

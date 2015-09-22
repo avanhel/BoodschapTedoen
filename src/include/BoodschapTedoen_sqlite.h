@@ -25,7 +25,7 @@
 
 class BoodschapTedoen_sqlite {
 public:
-	BoodschapTedoen_sqlite(string p_DatabaseName);
+	BoodschapTedoen_sqlite(const char p_DatabaseName);
 	virtual ~BoodschapTedoen_sqlite();
 
 
@@ -81,6 +81,7 @@ public:
 
 private:
 	string m_DataBaseName;
+
 
 };
 
